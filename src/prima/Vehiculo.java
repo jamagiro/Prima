@@ -12,10 +12,10 @@ package prima;
  */
 public abstract class Vehiculo {
     
-    String marca;
-    String modelo;
-    int anioFabricacion;
-    double costoMercado;
+    protected String marca;
+    protected String modelo;
+    protected int anioFabricacion;
+    protected double costoMercado;
 
     public Vehiculo(String marca, String modelo, int anioFabricacion, double costoMercado) {
         this.marca = marca;

@@ -11,7 +11,7 @@ package prima;
  */
 public class Privado extends Vehiculo {
 
-    String tipo;
+    private String tipo;
 
     public Privado(String tipo, String marca, String modelo, int anioFabricacion, double costoMercado) {
         super(marca, modelo, anioFabricacion, costoMercado);

@@ -11,8 +11,8 @@ package prima;
  */
 public class Publico extends Vehiculo {
 
-    String placa;
-    int cantidadDePasajeros;
+    private String placa;
+    private int cantidadDePasajeros;
 
     public Publico(String placa, int cantidadDePasajeros, String marca, String modelo, int anioFabricacion, double costoMercado) {
         super(marca, modelo, anioFabricacion, costoMercado);
